@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-header">
+    Angular
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Dlaczego warto używać Angular?</h5>
+    <p class="card-text">Angular to framework do tworzenia aplikacji webowych, rozwijany przez Google. Jest idealny do dużych aplikacji, oferując wbudowane narzędzia, takie jak routing, formularze, dependency injection, itp.</p>
+  </div>
+</div>
+
+<div *ngIf="isAngular">
+  <p>Angular jest często wykorzystywany w dużych aplikacjach korporacyjnych.</p>
+</div>
+
+<ul>
+  <li *ngFor="let feature of angularFeatures">{{ feature }}</li>
+</ul>
